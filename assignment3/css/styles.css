@@ -1,0 +1,100 @@
+*{
+	text-decoration: none;
+}
+body {
+	background-color: #161616;
+	color: #b5b5b5;
+	font-family: 'Hind', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Exo', sans-serif;
+
+}
+
+/*start header*/
+
+h1 {
+	color: #2bc4a6;
+	font-weight: lighter;
+	font-size: 1.5em;
+	margin: 0;
+	text-align: center;
+}
+a:hover {
+	text-decoration: none;
+}
+nav#header-nav {
+	border-radius: 0;
+	border: 0px;
+	padding-bottom: 5px;
+	background-color: #292929;
+}
+.navbar-default .navbar-collapse {
+	margin-top: 5px;
+	border: 0px;
+}
+.navbar-default .navbar-toggle {
+	padding: 7px 8px;
+	border: 2px solid #2bc4a6;
+	margin: 10px 10px 10px;
+}
+hr {
+	border-color: #2bc4a6;
+	margin: 0;
+}
+.glyphicon {
+	color: #2bc4a6;
+	margin-right: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #dbdbdb;
+	font-size: 1.4em;
+	margin: 10 25 10 10px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	border: 2px solid #2bc4a6;
+	background-color: #2bc4a6;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	background-color: #212121;
+	color: #2bc4a6;
+}
+
+/*end header*/
+
+/*start body content*/
+h2 {
+	margin: 50px 0 30px;
+	font-size: 4em;
+	color: #2bc4a6;
+}
+h3 {
+	margin-bottom: 30px; 
+}
+a#gototop {
+	color: #2bc4a6;
+}
+a#gototop:hover {
+	color: #1d8a74;
+}
+div.row {
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.col-xs-12 {
+	background-color: #292929;
+	border: 2px solid #292929;
+	border-radius: 5px;
+	color: #e3e3e3;
+	padding: 30px 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 1.7;
+	font-size: 1.2em;
+}
+
+/* end body content */
