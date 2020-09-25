@@ -42,3 +42,10 @@ h1 {
 div#container {
 	position: relative;
 }
+.circle {
+  display: block;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-right: auto;
+  width: 15%;
+}
